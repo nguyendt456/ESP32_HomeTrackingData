@@ -11,6 +11,7 @@ Weather sensor;
 TaskHandle_t Task1;
 TaskHandle_t Task2;
 WiFiServer server(80);
+
 void senddt(void *pvParameter) {
   while(true) {
     StaticJsonDocument <300> sensordt;
