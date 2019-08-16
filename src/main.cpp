@@ -5,6 +5,7 @@
 #include <Wire.h>
 #include <ArduinoJson.h>
 
+
 HTTPClient http;
 Weather sensor;
 TaskHandle_t Task1;
